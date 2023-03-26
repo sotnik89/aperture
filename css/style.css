@@ -295,3 +295,262 @@ header nav ul li:last-of-type a {
     border-radius: 40%;
     text-align: center;
 }
+
+/*What*/
+.what_we_do {
+    background-color: #000000;
+    padding-top: 113px;
+    padding-bottom: 84px;
+}
+
+.what_we_do .container {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.what_we_do h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.what_we_do h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+
+.what_we_do .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.what_we_do .cards article {
+    max-width: 576px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.what_we_do .description {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.what_we_do .cards article img {
+    display: block;
+    width: 100%;
+}
+
+.what_we_do .description h4 {
+    margin-bottom: 20px;
+    text-align: left;
+        font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.what_we_do .description p {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 26px;
+}
+.what_we_do .description a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 5px 10px 5px 4px;
+    border-radius: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.what_we_do .description a:before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    background-color: black;
+    border-radius: 40%;
+    text-align: center;
+}
+.what_we_do .architecture {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.what_we_do .architecture h4 {
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.what_we_do .architecture p {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 26px;
+}
+.what_we_do .architecture a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 5px 10px 5px 4px;
+    border-radius: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.what_we_do .architecture a:before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    background-color: black;
+    border-radius: 40%;
+    text-align: center;
+}
+.what_we_do .drone {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.what_we_do .drone h4 {
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.what_we_do .drone p {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 26px;
+}
+.what_we_do .drone a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 5px 10px 5px 4px;
+    border-radius: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.what_we_do .drone a:before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    background-color: black;
+    border-radius: 40%;
+    text-align: center;
+}
+.what_we_do .wildlife {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.what_we_do .wildlife h4 {
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.what_we_do .wildlife p {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 26px;
+}
+.what_we_do .wildlife a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 5px 10px 5px 4px;
+    border-radius: 14px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.what_we_do .wildlife a:before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    background-color: black;
+    border-radius: 40%;
+    text-align: center;
+}
+
+/*new*/
+.new{
+    background:  #000000;
+    padding-top: 113px;
+    padding-bottom: 140px;
+}
+.sub_new{
+    margin: auto;
+    max-width: 1200px;
+}
