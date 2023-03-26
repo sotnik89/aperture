@@ -357,7 +357,6 @@ header nav ul li:last-of-type a {
     display: inline-flex;
     align-items: center;
 }
-
 .what_we_do .wildlife a:before {
     content: '';
     display: inline-block;
@@ -368,7 +367,6 @@ header nav ul li:last-of-type a {
     border-radius: 40%;
     text-align: center;
 }
-
 /* Sunset */
 .sunset {
     background-image: url("../images/IMAGE.jpg");
