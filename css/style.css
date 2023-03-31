@@ -681,9 +681,7 @@ header nav ul li:last-of-type a {
 }
 
 .container h5{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
@@ -692,9 +690,7 @@ header nav ul li:last-of-type a {
     margin-bottom: 6px;
 }
 .container h4{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
     font-size: 28px;
     line-height: 32px;
     color: #FFFFFF;
@@ -702,9 +698,7 @@ header nav ul li:last-of-type a {
 }
 .container p{
     max-width: 514px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
