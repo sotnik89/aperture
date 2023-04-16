@@ -22,9 +22,18 @@
 /*}*/
 
 @media only screen and (max-width: 769px) {
-
     .what_we_do .cards {
         justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 11px;
+    }
+    header nav ul li{
+        margin-left: 8px;
+    }
+
+    header nav ul li {
+        margin-left: 8px;
     }
 
     .tools {
@@ -58,6 +67,9 @@
 }
 
 @media only screen and (max-width: 429px) {
+    header nav{
+        display: none;
+    }
     .tools .by_image {
         position: relative;
         width: 100%;
