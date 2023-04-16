@@ -685,7 +685,7 @@ header nav ul li:last-of-type a {
     background-size: cover;
 }
 
-.container h5 {
+.tools .container h5 {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -695,7 +695,7 @@ header nav ul li:last-of-type a {
     margin-bottom: 6px;
 }
 
-.container h4 {
+.tools .container h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
     line-height: 32px;
@@ -703,13 +703,14 @@ header nav ul li:last-of-type a {
     margin-bottom: 14px;
 }
 
-.container p {
+.tools .container p {
     max-width: 514px;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+
 }
 
 .tools .container article a {
@@ -741,6 +742,7 @@ header nav ul li:last-of-type a {
 footer {
     background-color: black;
     padding: 100px 0;
+    box-sizing: border-box;
 }
 
 footer .container {
@@ -751,8 +753,7 @@ footer .container {
 }
 
 footer .container:nth-child(1) .areas {
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -770,8 +771,7 @@ footer .container:nth-child(1) .left_first img {
 }
 
 footer .container:nth-child(2) .left_first h4 {
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -789,8 +789,7 @@ footer .container:nth-child(2) {
 }
 
 footer .container:nth-child(1) .business a {
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -798,8 +797,7 @@ footer .container:nth-child(1) .business a {
 }
 
 footer .container:nth-child(1) .pages a {
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
@@ -812,8 +810,7 @@ footer .container:nth-child(3) {
 
 footer .container:nth-child(3) .left_first a {
     text-decoration: none;
-    font-family: 'Poppins';
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
@@ -875,26 +872,35 @@ footer form button {
     display: flex;
     justify-content: space-between;
 }
-@keyframes shake {
-    0% {
-        position: absolute;
-    }
-    50% {
-        right: 10%;
-        top: 5%;
 
-    }
-    100% {
-        right: 30%;
-        top: 10%;
+footer .container p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
 
-    }
 }
-.shake{
-    width: 30px;
-    height: 45px;
-    background: yellow;
-    position: absolute;
-    z-index: 10;
-    animation: shake infinite 10s;
-}
+/*@keyframes shake {*/
+/*    0% {*/
+/*        position: absolute;*/
+/*    }*/
+/*    50% {*/
+/*        right: 10%;*/
+/*        top: 5%;*/
+
+/*    }*/
+/*    100% {*/
+/*        right: 30%;*/
+/*        top: 10%;*/
+
+/*    }*/
+/*}*/
+/*.shake{*/
+/*    width: 30px;*/
+/*    height: 45px;*/
+/*    background: yellow;*/
+/*    position: absolute;*/
+/*    z-index: 10;*/
+/*    animation: shake infinite 10s;*/
+/*}*/

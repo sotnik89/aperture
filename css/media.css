@@ -18,6 +18,36 @@
             }
 
 }
+@media only screen and (max-width: 769px){
+
+    .what_we_do .cards  {
+        justify-content: center;
+    }
+    .tools {
+        min-height: 280px;
+    }
+    .tools .by_image{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 280px;
+    }
+    .tools .container p{
+        max-width: 350px;
+    }
+    .tools .container{
+        max-width: 710px;
+        min-height: 280px;
+    }
+    footer{
+        padding: 50px 15px;
+    }
+    .new_past{
+             justify-content: space-around;
+    }
+}
+
 @media only screen and (max-width: 429px){
     .tools .by_image{
         position: relative;
