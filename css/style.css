@@ -709,6 +709,7 @@ header nav ul li:last-of-type a {
     font-size: 14px;
     line-height: 20px;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
 .tools .container article a {
@@ -873,4 +874,27 @@ footer form button {
     width: 106px;
     display: flex;
     justify-content: space-between;
+}
+@keyframes shake {
+    0% {
+        position: absolute;
+    }
+    50% {
+        right: 10%;
+        top: 5%;
+
+    }
+    100% {
+        right: 30%;
+        top: 10%;
+
+    }
+}
+.shake{
+    width: 30px;
+    height: 45px;
+    background: yellow;
+    position: absolute;
+    z-index: 10;
+    animation: shake infinite 10s;
 }
